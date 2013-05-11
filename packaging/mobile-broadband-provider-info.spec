@@ -52,6 +52,7 @@ make %{?_smp_mflags}
 
 
 %files
+%license COPYING
 %defattr(-,root,root,-)
 %{_datadir}/pkgconfig/mobile-broadband-provider-info.pc
 %{_datadir}/mobile-broadband-provider-info/*
