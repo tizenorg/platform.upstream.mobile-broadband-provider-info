@@ -7,6 +7,7 @@ Url:            http://www.gnome.org
 Group:          Applications/Internet
 Source0:        %{name}-%{version}.tar.xz
 Source101:      mobile-broadband-provider-info-rpmlintrc
+Source1001: 	mobile-broadband-provider-info.manifest
 
 %description
 This package contains mobile broadband settings for different service providers
@@ -35,6 +36,7 @@ The database is released under Creative Commons Public Domain (CC-PD).
 
 %prep
 %setup -q
+cp %{SOURCE1001} .
 
 
 %build
@@ -52,6 +54,7 @@ make %{?_smp_mflags}
 
 
 %files
+%manifest %{name}.manifest
 %license COPYING
 %defattr(-,root,root,-)
 %{_datadir}/pkgconfig/mobile-broadband-provider-info.pc
