@@ -1,0 +1,8 @@
+Change-Id: I8a9d3c13cfccb63b48f9818aca07036e32c90396
+Code-Review+2: Ryan Ware <ware@linux.intel.com>
+Verified+1: Ryan Ware <ware@linux.intel.com>
+Submitted-by: Ryan Ware <ware@linux.intel.com>
+Submitted-at: Mon, 08 Jul 2013 09:37:33 -0700
+Reviewed-on: https://review.tizen.org/gerrit/5215
+Project: platform/upstream/mobile-broadband-provider-info
+Branch: refs/heads/tizen
